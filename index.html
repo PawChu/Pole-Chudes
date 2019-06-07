@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+</head>
+<body>
+	<div class="text-center pole">
+		<img src="pole.png">
+	</div>
+
+	<div class="container text-center ugadai" style="padding-top: 20px; width: 700px; display: none;">
+		<div>
+			<h4 class="text-center bg-warning">Этот струнный инструмент используют во многих стилях и направлениях музыки. Значительный вклад в музыкальную индустрию этот инструмент внес к середине 20 века.</h4>
+		</div>
+		<div class="container" style="height: 80px;">
+			<div class="row">
+				<div class="border col-2 kub" style="height: 80px; background: black;">
+					<h1 style="color: black;">Г</h1>
+				</div>
+				<div class="border col-2 kub" style="height: 80px; background: black;">
+					<h1 style="color: black;">И</h1>
+				</div>
+				<div class="border col-2 kub" style="height: 80px; background: black;">
+					<h1 style="color: black;">Т</h1>
+				</div>
+				<div class="border col-2 kub" style="height: 80px; background: black;">
+					<h1 style="color: black;">А</h1>
+				</div>
+				<div class="border col-2 kub" style="height: 80px; background: black;">
+					<h1 style="color: black;">Р</h1>
+				</div>
+				<div class="border col-2 kub" style="height: 80px; background: black;">
+					<h1 style="color: black;">А</h1>
+				</div>
+			</div>
+		</div>
+		<div style="margin-top: 30px;">
+			<span class="p border">А</span>
+			<span class="n border">Б</span>
+			<span class="n border">В</span>
+			<span class="p border">Г</span>
+			<span class="n border">Д</span>
+			<span class="n border">Е</span>
+			<span class="n border">Ё</span>
+			<span class="n border">Ж</span>
+			<span class="n border">З</span>
+			<span class="p border">И</span>
+			<span class="n border">Й</span>
+			<span class="n border">К</span>
+			<span class="n border">Л</span>
+			<span class="n border">М</span>
+			<span class="n border">Н</span>
+			<span class="n border">О</span>
+			<span class="n border">П</span>
+			<span class="p border">Р</span>
+			<span class="n border">С</span>
+			<span class="p border">Т</span>
+			<span class="n border">У</span>
+			<span class="n border">Ф</span>
+			<span class="n border">Х</span>
+			<span class="n border">Ц</span>
+			<span class="n border">Ч</span>
+			<span class="n border">Ш</span>
+			<span class="n border">Щ</span>
+			<span class="n border">Ъ</span>
+			<span class="n border">Ы</span>
+			<span class="n border">Ь</span>
+			<span class="n border">Э</span>
+			<span class="n border">Ю</span>
+			<span class="n border">Я</span>
+		</div>
+	</div>
+	<div class="chel" style="display: none">
+		<p style="margin-top: 20px; position: absolute;">"В эфире капитан шоу поле чудес! Вам нужно угадать слово"</p>
+		<img src="start.png" style="width: 300px;">
+	</div>
+
+
+
+	<script type="text/javascript">
+		let x = function(){
+			document.querySelector(".pole").style.display = "none"
+			document.querySelector(".ugadai").style.display = "block"
+			document.querySelector(".chel").style.display = "block"
+			}
+
+		let prav = document.querySelectorAll(".p")
+		let net = document.querySelectorAll(".n")
+		let k = document.querySelectorAll(".kub")
+
+		prav[0].onclick = function(){
+			alert("Правильно")
+			k[3].style.background = "#005c99"
+			k[5].style.background = "#005c99"
+			prav[0].style.display = "none"
+		}
+		prav[1].onclick = function(){
+			alert("Правильно")
+			k[0].style.background = "#005c99"
+			prav[1].style.display = "none"
+		}
+		prav[2].onclick = function(){
+			alert("Правильно")
+			k[1].style.background = "#005c99"
+			prav[2].style.display = "none"
+		}
+		prav[3].onclick = function(){
+			alert("Правильно")
+			k[4].style.background = "#005c99"
+			prav[3].style.display = "none"
+		}
+		prav[4].onclick = function(){
+			alert("Правильно")
+			k[2].style.background = "#005c99"
+			prav[4].style.display = "none"
+		}
+		net[0].onclick = function(){
+			alert("Не правильно")
+		}
+		net[1].onclick = function(){
+			alert("Не правильно")
+		}
+		net[2].onclick = function(){
+			alert("Не правильно")
+		}
+		net[3].onclick = function(){
+			alert("Не правильно")
+		}
+		net[4].onclick = function(){
+			alert("Не правильно")
+		}
+		net[5].onclick = function(){
+			alert("Не правильно")
+		}
+		net[6].onclick = function(){
+			alert("Не правильно")
+		}
+		net[7].onclick = function(){
+			alert("Не правильно")
+		}
+		net[8].onclick = function(){
+			alert("Не правильно")
+		}
+		net[9].onclick = function(){
+			alert("Не правильно")
+		}
+		net[10].onclick = function(){
+			alert("Не правильно")
+		}
+		net[11].onclick = function(){
+			alert("Не правильно")
+		}
+		net[12].onclick = function(){
+			alert("Не правильно")
+		}
+		net[13].onclick = function(){
+			alert("Не правильно")
+		}
+		net[14].onclick = function(){
+			alert("Не правильно")
+		}
+		
+
+
+
+		setTimeout(x, 2000)
+	</script>
+
+</body>
+</html>
